@@ -1,98 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paula Yaniz – Product & Data Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paula Yaniz – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="navbar">
-        <div class="nav-left">Paula Yaniz</div>
-        <div class="nav-right">
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <button id="theme-toggle">☀️</button>
-        </div>
-    </header>
+  <header class="navbar">
+    <div class="nav-left">Paula Yaniz</div>
+    <div class="nav-right">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <button id="theme-toggle">☀️</button>
+    </div>
+  </header>
 
-    <section class="hero">
-        <h1>Product & Data Portfolio</h1>
-        <p>I build products, analyze systems, and make data useful.</p>
-    </section>
+  <section class="hero">
+    <h1>Product & Data Portfolio</h1>
+    <p>Building meaningful products with GIS, data, and software.</p>
+  </section>
 
-    <section id="projects" class="section">
-        <h2>Projects</h2>
+  <section id="projects" class="section">
+    <h2>GIS Projects</h2>
+    <p>ArcGIS Online, Business Analyst, StoryMaps</p>
 
-        <!-- Madrid -->
-        <div class="project-card">
-            <div class="proj-text">
-                <h3>Madrid Thrifting Directory</h3>
-                <p>Geospatial dashboard of 50+ thrift stores. Combined market insights, user behavior mapping, and interface optimization to recommend store clusters and improve navigation.</p>
-                <a class="proj-link" href="https://arcg.is/1G1Wme1" target="_blank">View Dashboard →</a>
-            </div>
-            <div class="proj-img">
-                <img src="https://github.com/user-attachments/assets/9e848629-93ec-4448-a1b6-8f93cbcece40" alt="Madrid Dashboard" />
-            </div>
-        </div>
+    <div class="project-card">
+      <h3>ARCGIS Cyclone Idai: Resilience and Response</h3>
+      <p>Humanitarian and Disaster Response in Mozambique (Dec 2024)</p>
+      <a href="https://storymaps.arcgis.com/stories/c53eca7047dd4e52b95a6d13242d56a9" target="_blank">View StoryMap →</a>
+      <img src="https://github.com/user-attachments/assets/6b368eb5-a33f-4173-9f85-6a2854899c91" alt="Cyclone Idai">
+    </div>
 
-        <!-- AV Raval -->
-        <div class="project-card">
-            <div class="proj-text">
-                <h3>AV Raval Digital Voting System</h3>
-                <p>Designed and deployed a digital voting platform for a citywide art event (10k+ users). Led rapid user research cycles and coordinated stakeholders to ship a reliable, scalable tool.</p>
-            </div>
-            <div class="proj-img">
-                <img src="https://github.com/user-attachments/assets/a5599af3-d987-4084-af09-acd8621ad168" alt="AV Raval Voting Platform" />
-                <img src="https://github.com/user-attachments/assets/6942dc33-515a-42c8-ab76-a4f81c249a74" alt="Voting Data" />
-            </div>
-        </div>
+    <div class="project-card">
+      <h3>ARCGIS Ethiopia: Challenges in a Divided Nation</h3>
+      <p>The Armed Conflict Location & Event Data Project (Nov 2024)</p>
+      <a href="https://storymaps.arcgis.com/stories/2da5ecff7a774fba9ff61954460d8ff6" target="_blank">View StoryMap →</a>
+      <img src="https://github.com/user-attachments/assets/9d548a74-9311-4b45-9a33-15116883a109" alt="Ethiopia Conflict">
+    </div>
 
-        <!-- Konbini -->
-        <div class="project-card">
-            <div class="proj-text">
-                <h3>ISAK Konbini Retail MVP</h3>
-                <p>Co-founded a student-run retail MVP. Used data and weekly iteration cycles to optimize pricing and UX, achieving 389% ROI. Built a simple system that scaled sustainably.</p>
-            </div>
-            <div class="proj-img">
-                <img src="https://github.com/user-attachments/assets/1898e2e9-9c70-46e7-9ce7-95afd456173a" alt="Konbini MVP" />
-                <img src="https://github.com/user-attachments/assets/8d744f66-e8e5-4600-a43d-a068ea961546" alt="Konbini Sales" />
-            </div>
-        </div>
+    <h2>Programming Projects</h2>
 
-        <!-- GIS -->
-        <div class="project-card">
-            <div class="proj-text">
-                <h3>GIS StoryMaps</h3>
-                <p>Analytical mapping projects using ArcGIS StoryMaps and ACLED data. Focused on conflict visualization, resilience, and disaster response.</p>
-                <ul>
-                    <li><a href="https://storymaps.arcgis.com/stories/c53eca7047dd4e52b95a6d13242d56a9" target="_blank">Cyclone Idai</a></li>
-                    <li><a href="https://storymaps.arcgis.com/stories/2da5ecff7a774fba9ff61954460d8ff6" target="_blank">Ethiopia Conflict</a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="project-card">
+      <h3>Simulated Family Banking System</h3>
+      <p>Python, HTML, CSS, SQLite (May 2024)</p>
+      <img src="https://github.com/user-attachments/assets/e8b9b4c6-4f95-4ac7-a4f2-783525c3ed83" alt="Family Banking 1">
+      <img src="https://github.com/user-attachments/assets/f102c559-bdc4-494c-8543-76ff3497ce1f" alt="Family Banking 2">
+      <p>Documentation withheld to comply with academic integrity policies</p>
+    </div>
 
-        <!-- Coding -->
-        <div class="project-card">
-            <div class="proj-text">
-                <h3>Coding Projects (Python, SQL, Kivy)</h3>
-                <p>Hands-on programming work including a simulated family banking system, mood tracker app, and distributed weather station prototype.</p>
-            </div>
-        </div>
+    <div class="project-card">
+      <h3>Social Media Website</h3>
+      <p>Python, HTML, CSS, SQLite (May 2023)</p>
+      <a href="https://github.com/PaulaYaniz/Unit4" target="_blank">View Code →</a>
+      <img src="https://github.com/user-attachments/assets/f3e5cc1c-a7dc-41d3-926c-2ac87e4f16a3" alt="Social Media Website">
+    </div>
 
-    </section>
+    <div class="project-card">
+      <h3>Mood-Tracker App</h3>
+      <p>Kivy/Python (Mar 2023)</p>
+      <a href="https://github.com/PaulaYaniz/Unit3" target="_blank">View Code →</a>
+      <img src="https://github.com/user-attachments/assets/f30fbd35-f8dd-4d8c-8b6c-7d418ca6f40" alt="Mood Tracker">
+    </div>
 
-    <section id="about" class="section">
-        <h2>About</h2>
-        <p>I study Business Administration and Computer Science at Washington and Lee University. My work blends product thinking, data analysis, and human-centered design to solve practical problems.</p>
-    </section>
+    <div class="project-card">
+      <h3>Distributed Weather Station</h3>
+      <p>Python, Arduino, DHT11 (Dec 2022)</p>
+      <a href="https://github.com/PaulaYaniz/Unit2" target="_blank">View Code →</a>
+      <img src="https://github.com/user-attachments/assets/b8ed0be4-a23c-4fc1-959f-ba92979c46e3" alt="Weather Station">
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2025 Paula Yaniz</p>
-    </footer>
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>Computer Science & Business student at Washington and Lee University. I build products with data, GIS, and software to solve real problems. Focused on usability, iteration, and measurable impact.</p>
+  </section>
 
-    <script src="script.js"></script>
+  <footer>
+    <p>© 2025 Paula Yaniz</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
