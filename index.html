@@ -1,129 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paula Yaniz Macia | Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paula Yaniz – Product & Data Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="nav-left">Paula Yaniz Macia</div>
-    <button class="hamburger" id="hamburger">☰</button>
-    <ul class="nav-links" id="nav-links">
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><button id="theme-toggle">Toggle Theme</button></li>
-    </ul>
-  </nav>
+    <header class="navbar">
+        <div class="nav-left">Paula Yaniz</div>
+        <div class="nav-right">
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <button id="theme-toggle">☀️</button>
+        </div>
+    </header>
 
-  <!-- HERO -->
-  <header class="hero">
-    <h1>Hi, I’m Paula.</h1>
-    <p>Product-focused builder with experience in UX research, geospatial analysis, rapid iteration, and end-to-end execution.</p>
-    <a class="cta" href="projects.html">See My Work</a>
-  </header>
+    <section class="hero">
+        <h1>Product & Data Portfolio</h1>
+        <p>I build products, analyze systems, and make data useful.</p>
+    </section>
 
-  <!-- FEATURED PROJECTS SECTION -->
-  <section class="section">
-    <h2>Featured Projects</h2>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
 
-    <div class="project-card">
-      <h3>Madrid Thrifting Directory</h3>
-      <p class="tags">ArcGIS • Web Mapping • UX Research</p>
-      <p>Interactive directory of 50+ thrift stores. Designed for market insight, navigation efficiency, and sustainability metrics.</p>
-      <div class="img-row">
-        <img src="https://github.com/user-attachments/assets/9e848629-93ec-4448-a1b6-8f93cbcece40" alt="Madrid Project" />
-      </div>
-      <a class="cta" href="projects.html">View More</a>
-    </div>
+        <!-- Madrid -->
+        <div class="project-card">
+            <div class="proj-text">
+                <h3>Madrid Thrifting Directory</h3>
+                <p>Geospatial dashboard of 50+ thrift stores. Combined market insights, user behavior mapping, and interface optimization to recommend store clusters and improve navigation.</p>
+                <a class="proj-link" href="https://arcg.is/1G1Wme1" target="_blank">View Dashboard →</a>
+            </div>
+            <div class="proj-img">
+                <img src="https://github.com/user-attachments/assets/9e848629-93ec-4448-a1b6-8f93cbcece40" alt="Madrid Dashboard" />
+            </div>
+        </div>
 
-    <div class="project-card">
-      <h3>AV Raval Digital Voting System</h3>
-      <p class="tags">Product Strategy • User Research • Analytics</p>
-      <p>Digital voting MVP for a citywide art contest. Reached 10,000+ users with rapid iteration cycles based on behavioral data.</p>
-      <div class="img-row">
-        <img src="https://github.com/user-attachments/assets/a5599af3-d987-4084-af09-acd8621ad168" alt="AV Raval Project" />
-        <img src="https://github.com/user-attachments/assets/6942dc33-515a-42c8-ab76-a4f81c249a74" alt="AV Raval Screenshot" />
-      </div>
-      <a class="cta" href="projects.html">View More</a>
-    </div>
+        <!-- AV Raval -->
+        <div class="project-card">
+            <div class="proj-text">
+                <h3>AV Raval Digital Voting System</h3>
+                <p>Designed and deployed a digital voting platform for a citywide art event (10k+ users). Led rapid user research cycles and coordinated stakeholders to ship a reliable, scalable tool.</p>
+            </div>
+            <div class="proj-img">
+                <img src="https://github.com/user-attachments/assets/a5599af3-d987-4084-af09-acd8621ad168" alt="AV Raval Voting Platform" />
+                <img src="https://github.com/user-attachments/assets/6942dc33-515a-42c8-ab76-a4f81c249a74" alt="Voting Data" />
+            </div>
+        </div>
 
-    <div class="project-card">
-      <h3>ISAK Konbini Retail Startup</h3>
-      <p class="tags">MVP • Data Analytics • User Behavior</p>
-      <p>Retail MVP with weekly iteration cycles informed by surveys, pricing experiments, and observed user behavior.</p>
-      <div class="img-row">
-        <img src="https://github.com/user-attachments/assets/1898e2e9-9c70-46e7-9ce7-95afd456173a" alt="Konbini App" />
-        <img src="https://github.com/user-attachments/assets/8d744f66-e8e5-4600-a43d-a068ea961546" alt="Konbini UX" />
-      </div>
-      <a class="cta" href="projects.html">View More</a>
-    </div>
-  </section>
+        <!-- Konbini -->
+        <div class="project-card">
+            <div class="proj-text">
+                <h3>ISAK Konbini Retail MVP</h3>
+                <p>Co-founded a student-run retail MVP. Used data and weekly iteration cycles to optimize pricing and UX, achieving 389% ROI. Built a simple system that scaled sustainably.</p>
+            </div>
+            <div class="proj-img">
+                <img src="https://github.com/user-attachments/assets/1898e2e9-9c70-46e7-9ce7-95afd456173a" alt="Konbini MVP" />
+                <img src="https://github.com/user-attachments/assets/8d744f66-e8e5-4600-a43d-a068ea961546" alt="Konbini Sales" />
+            </div>
+        </div>
 
-  <!-- FOOTER -->
-  <footer class="section" style="opacity: 0.7;">
-    <p>© 2025 Paula Yaniz Macia</p>
-  </footer>
+        <!-- GIS -->
+        <div class="project-card">
+            <div class="proj-text">
+                <h3>GIS StoryMaps</h3>
+                <p>Analytical mapping projects using ArcGIS StoryMaps and ACLED data. Focused on conflict visualization, resilience, and disaster response.</p>
+                <ul>
+                    <li><a href="https://storymaps.arcgis.com/stories/c53eca7047dd4e52b95a6d13242d56a9" target="_blank">Cyclone Idai</a></li>
+                    <li><a href="https://storymaps.arcgis.com/stories/2da5ecff7a774fba9ff61954460d8ff6" target="_blank">Ethiopia Conflict</a></li>
+                </ul>
+            </div>
+        </div>
 
-  <script src="script.js"></script>
+        <!-- Coding -->
+        <div class="project-card">
+            <div class="proj-text">
+                <h3>Coding Projects (Python, SQL, Kivy)</h3>
+                <p>Hands-on programming work including a simulated family banking system, mood tracker app, and distributed weather station prototype.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>I study Business Administration and Computer Science at Washington and Lee University. My work blends product thinking, data analysis, and human-centered design to solve practical problems.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Paula Yaniz</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paula Yaniz Macià – Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav class="navbar">
-    <div class="nav-left">Paula Yaniz Macià</div>
-    <div class="nav-right">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="about.html">About</a>
-      <button id="mode-toggle">☾</button>
-    </div>
-  </nav>
 
-  <header class="hero">
-    <h1>Building products with clarity, structure, and intention.</h1>
-    <p>Computer Science & Business student focused on product, data, and systems that solve real problems.</p>
-  </header>
-
-  <section class="featured-section">
-    <h2>Featured Projects</h2>
-    <div class="project-grid">
-      <a href="project_madrid.html" class="project-card">
-        <img src="https://github.com/user-attachments/assets/9e848629-93ec-4448-a1b6-8f93cbcece40" alt="Madrid Fashion Migration" />
-        <h3>Madrid Fashion Migration</h3>
-        <p>Mapping and analyzing 10 years of fashion trend diffusion.</p>
-      </a>
-
-      <a href="project_konbini.html" class="project-card">
-        <img src="https://github.com/user-attachments/assets/1898e2e9-9c70-46e7-9ce7-95afd456173a" alt="Konbini Expansion" />
-        <h3>Konbini Expansion Model</h3>
-        <p>Predicting optimal store placement using demographic and mobility data.</p>
-      </a>
-
-      <a href="project_raval.html" class="project-card">
-        <img src="https://github.com/user-attachments/assets/a5599af3-d987-4084-af09-acd8621ad168" alt="AV Raval" />
-        <h3>AV Raval Strategy</h3>
-        <p>Business strategy and digital architecture for AV Raval.</p>
-      </a>
-    </div>
-  </section>
-
-  <section class="cta">
-    <h2>Want to collaborate?</h2>
-    <p>Open to product, research, and data-oriented opportunities.</p>
-    <a href="mailto:paula@example.com" class="cta-btn">Get in Touch</a>
-  </section>
-
-  <script src="script.js"></script>
-</body>
-</html>
